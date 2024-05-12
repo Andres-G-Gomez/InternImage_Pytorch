@@ -6,15 +6,15 @@ This repository contains a custom implementation of the InternImage model, focus
 
 - **modules/**: This directory contains the core components of the InternImage model, including the encoder, the UperNet decoder, and supporting scripts necessary for running the model.
   
-  - **modules/internimage.py**: Contains the implementation of the InternImage encoder, which is the backbone of the model. It includes the stem layer, InternImage blocks, and other necessary components.
+  - **internimage.py**: Contains the implementation of the InternImage encoder, which is the backbone of the model. It includes the stem layer, InternImage blocks, and other necessary components.
   
-  - **modules/upernet.py**: Contains the implementation of the UperNet decoder, responsible for processing the output of the encoder and generating the final segmentation masks.
+  - **upernet.py**: Contains the implementation of the UperNet decoder, responsible for processing the output of the encoder and generating the final segmentation masks.
   
 - **tutorial/**: This directory contains tutorials to help users understand and utilize the core components of the InternImage model.
 
-  - **tutorial/core_op_tutorial.ipynb**: A Jupyter notebook providing a comprehensive guide to the core operator of InternImage, DCNv3. It covers its principles, implementation details, and usage examples.
+  - **core_op_tutorial.ipynb**: A Jupyter notebook providing a comprehensive guide to the core operator of InternImage, DCNv3. It covers its principles, implementation details, and usage examples.
   
-  - **tutorial/encoder_tutorial.ipynb**: A Jupyter notebook offering a detailed explanation of the InternImage encoder architecture. It covers the structure of the encoder, its components, and how to use it for various tasks.
+  - **encoder_tutorial.ipynb**: A Jupyter notebook offering a detailed explanation of the InternImage encoder architecture. It covers the structure of the encoder, its components, and how to use it for various tasks.
 
 ## Usage
 
