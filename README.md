@@ -1,6 +1,7 @@
 # Custom InternImage Implementation
 
-This repository contains a custom implementation of the InternImage model, focusing on modularity and ease of investigation into architectural alternatives. Unlike some existing implementations that rely on specific frameworks like mmsegmentation, this implementation is built solely on PyTorch, making it more flexible and accessible for experimentation.
+
+This repository hosts a custom implementation of the InternImage model, designed with a focus on modularity and flexibility for investigating architectural alternatives. Leveraging PyTorch as its core framework, this implementation offers accessibility and ease of experimentation. It complements the insights provided in the article ["Navigating the InternImage Model - A Deep Dive into its Encoder and Revolutionary DCNv3 Operator"](https://andres-g-gomez.github.io/projects/5_project/) by Andres G. Gomez, offering practical exploration opportunities beyond theoretical discussions. For reference, the original InternImage repository can be found [here](https://github.com/OpenGVLab/InternImage).
 
 ## Contents
 
