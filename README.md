@@ -1,4 +1,4 @@
-# Custom InternImage Implementation
+# Pytorch InternImage Implementation
 
 
 This repository hosts a custom implementation of the InternImage model, designed with a focus on modularity and flexibility for investigating architectural alternatives. Unlike some existing implementations that rely on specific frameworks like mmsegmentation, this implementation is built solely on PyTorch, making it more flexible and accessible for experimentation. 
